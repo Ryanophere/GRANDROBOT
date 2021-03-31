@@ -29,7 +29,7 @@ PM_START_TEXT = """
 **Hello {}, My Name is {}!** 
 I am an **SUPERB**  group management bot.
 You can find the list of available commands with /help.
-
+@RYAN_HERE ❤️✨
 """
 
 HELP_STRINGS = """
@@ -142,15 +142,15 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
-                                                                       url="t.me/teamishere")],
-                                                                                   [InlineKeyboardButton(text="ADD GRAND OFFICIAL TO YOUR GROUP",
+                                                                       url="t.me/RYAN_HERE")],
+                                                                                   [InlineKeyboardButton(text="ADD 𝚁𝚈𝙰𝙽 𝙾𝙿✨ TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
                                                                        url="https://github.com/legendx22/GRANDROBOT")
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Yuss, I am Already ONline")
+        update.effective_message.reply_text("ABHI APUN ZINDA HAI ✨💫")
 
 
 def send_start(bot, update):
