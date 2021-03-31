@@ -141,7 +141,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
+                                                                                   InlineKeyboardButton(text="✨My Creator✨",
                                                                        url="t.me/RYAN_HERE")],
                                                                                    [InlineKeyboardButton(text="ADD 𝚁𝚈𝙰𝙽 𝙾𝙿✨ TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
